@@ -11,27 +11,48 @@ header {
     margin: 10px;
     
 }
+main > h2{
+    background-color: rgb(248, 246, 246);
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
 
-main{
+main > section  {
     background-color: white;
     padding: 10px;
     margin: 10px;
+    border-radius: 20px;
 }
 
 article {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
     background-color: lightgray;
     padding: 5px;
+    border-radius: 20px;
+
 }
 article > aside {
+
     background-color: white;
+
 }
 
 nav {
 
     background-color: rgb(102, 102, 102);
     padding: 3px;
+    box-shadow: 2px 2px 4px 1px rgb(0, 0, 0, 0.315);
+
 }
+
 nav > ul > a {
     text-decoration: none;
     color: white;
@@ -40,15 +61,22 @@ nav > ul > a {
 }
 
 nav > ul> a:hover{
+
     text-decoration: underline;
+
 }
+
 footer {
+    
     background-color: black;
     color:white;
     text-align: center;
     padding: 1px;
     margin: 0px;
+
 }
 footer > p {
+
     margin: 0px;
+
 }
